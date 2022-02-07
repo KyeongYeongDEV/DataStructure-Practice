@@ -36,7 +36,7 @@ node *search_refunction(node *root, int key){//재귀를 이용한 순환 탐색
     else{return search_refunction(root->left,key);}//아니면 왼쪽 트리로
 }
 
-//-------------#2022.02.04 추가---------------
+//-------------#2022.02.04 추가---------------------------
 
 node *search(node *root, int key){//반복문을 이용한 탐색 
         if(key == root->key){return root; }
